@@ -8,7 +8,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <maven.compiler.release>25</maven.compiler.release>
-        <exec.mainClass>com.mycompany.mahasiswa.Mahasiswa</exec.mainClass>
+        <exec.mainClass>gui.MahasiswaGUI</exec.mainClass>
     </properties>
     <name>Praktek3</name>
 </project>
