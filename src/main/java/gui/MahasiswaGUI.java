@@ -114,7 +114,7 @@ public class MahasiswaGUI extends Mahasiswa {
         int baris = tabel.getSelectedRow();
         String namaBaru = txtNama.getText().trim();
         if (baris < 0) {
-            JOptionPane.showMessageDialog(frame, "Pilih data di tabel terlebihdahulu.");
+            JOptionPane.showMessageDialog(frame, "Pilih data di tabel terlebih dahulu.");
             return;
         }
         if (namaBaru.isEmpty()) {
@@ -130,7 +130,7 @@ public class MahasiswaGUI extends Mahasiswa {
     private void aksiHapus() {
     int baris = tabel.getSelectedRow();
     if (baris < 0) {
-        JOptionPane.showMessageDialog(frame, "Pilih data di tabel terlebihdahulu.");
+        JOptionPane.showMessageDialog(frame, "Pilih data di tabel terlebih dahulu.");
         return;
     }
     String nama = modelTabel.getValueAt(baris, 1).toString();
